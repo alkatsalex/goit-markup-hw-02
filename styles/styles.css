@@ -101,6 +101,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    color: var(--main-color-title);
 }
 
 .btn:hover,
