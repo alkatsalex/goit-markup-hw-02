@@ -44,7 +44,6 @@ body {
 /* nav */
 
 .list {
-    color: var(--main-color-title);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -55,6 +54,7 @@ body {
 
 .link {
     text-decoration: none;
+    color: var(--main-color-title);
 }
 
 .auth-nav.list .link {
@@ -77,7 +77,6 @@ body {
 }
 
 .main-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -104,7 +103,9 @@ body {
     letter-spacing: 0.06em;
 }
 
-.btn:hover, .btn:active, .btn:focus {
+.btn:hover,
+.btn:active,
+.btn:focus {
     color: var(--additional-color);
     background-color: var(--accent-color);
 }
@@ -122,7 +123,6 @@ body {
 /* main */
 
 .title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -179,7 +179,6 @@ body {
 }
 
 .address .link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -193,7 +192,6 @@ body {
 }
 
 .link.addr {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
